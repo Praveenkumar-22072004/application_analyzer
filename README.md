@@ -1,11 +1,36 @@
-<div align="center">
+# AI Application Analyzer
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A full-stack React and Node.js application that converts raw application requirements into structured features, backend business logic, UI navigation flows, key UI screen specifications, acceptance test cases, and responsive interactive wireframe previews.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Requirements Ingestion**: Direct paste or instant file upload (`.txt`, `.md`, `.json`, `.csv`).
+- **Feature Extraction**: Identification of core application modules, workflows, and functional capabilities.
+- **Business Logic Architecture**: In-depth backend workflow details covering validation, execution rules, concurrency, and persistence.
+- **UI Flow & Screen Mapping**: Screen-by-screen user journey and structural screen breakdown.
+- **Acceptance Test Cases**: Systematic test scenarios across functional, security, and performance criteria.
+- **Interactive Device Mockups**: Dynamic wireframe simulation adapting to the selected screen (Login, Dashboard, Profile, or Custom module).
+- **Dual AI Engine with Resilient Fallback**: Powered by Gemini API (`gemini-3.8-flash`) with automatic heuristic fallback for guaranteed uptime.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- **Frontend**: React, TypeScript, Vite, Framer Motion, Lucide Icons
+- **Backend**: Express, Node.js, `@google/genai`
+- **Port**: 3000 (`0.0.0.0`)
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```

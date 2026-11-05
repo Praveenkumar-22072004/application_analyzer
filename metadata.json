@@ -1,0 +1,7 @@
+{
+  "name": "AI Application Analyzer",
+  "description": "Convert raw requirements into features, UI flow, logic, test cases, and interactive device wireframe previews.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
